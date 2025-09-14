@@ -1,5 +1,28 @@
+.background {
+    background-color: #ea0000;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50%;
+    position: relative;
+}
+
+
+
+
 .distrib {
-width: 10%;
+    position: relative;
+    width: 10%;
 }
 
 button {
