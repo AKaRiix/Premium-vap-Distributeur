@@ -1,24 +1,17 @@
-.background {
-    background-color: #ea0000;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .title {
-    align-items: center;
-    display: flex;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 50%;
-    position: relative;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    color: #333;
+
 }
-
-
-
 
 .distrib {
     position: relative;
@@ -26,7 +19,9 @@
 }
 
 button {
-    width: 150px;
-    height: 40px;
+    background-color: #4CAF50;
+    border: none;
+    width: 300px;
+    height: 50px;
     
 }
